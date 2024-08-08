@@ -1,0 +1,43 @@
+.ListingCard h3 {
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 1.25rem 0 0.44rem;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 1.13rem;
+}
+
+.tags p {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.ListingCard>img {
+    width: 23rem;
+    height: 23rem;
+}
+
+@media screen and (max-width: 700px) {
+    .ListingCard img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .ListingCard {
+        width: 10rem;
+    }
+
+    .ListingCard h3 {
+        font-size: 16px;
+        margin: 0.25rem 0rem 0rem;
+    }
+
+}

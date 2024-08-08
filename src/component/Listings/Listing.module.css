@@ -1,0 +1,46 @@
+.Listing_container {
+    max-width: 75vw;
+    margin: 6rem auto 0;
+}
+
+.Listing_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.Listing_content h2 {
+    font-family: Space Grotesk;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    text-decoration: underline;
+}
+
+.Listing_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.51rem;
+    row-gap: 4.31rem;
+}
+
+.Listing_card>img {
+    width: 10px;
+    height: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .Listing_card {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Listing_container {
+        max-width: 92%;
+    }
+
+    .Listing_content h2 {
+        font-size: 36px;
+    }
+}
