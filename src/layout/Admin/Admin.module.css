@@ -1,0 +1,55 @@
+.main {
+    width: 80%;
+    margin: 2rem auto 1rem;
+    /* background-color: aqua; */
+    padding-right: 20rem;
+}
+
+.admin_layout {
+    display: flex;
+    gap: 12rem;
+}
+
+
+.herobox1 {
+    background-color: aliceblue;
+    /* padding: 0rem 8rem; */
+}
+
+.herobox2 {
+    background-color: beige;
+    padding: 0rem 5rem 0rem 1.5rem;
+
+}
+
+.tag {
+    font-size: 20px;
+    background-color: aqua;
+    margin: 1rem 0rem;
+}
+
+.groups,
+.users,
+.contact,
+.listings,
+.Realtors {
+    display: flex;
+    gap: 25rem;
+    margin: 0.5rem 0rem;
+}
+
+.add_change {
+    display: flex;
+    gap: 2rem;
+}
+
+.herobox2 {
+    background-color: beige;
+    padding: 0rem 5rem 0rem 1.5rem;
+
+}
+
+.herobox2 h3 {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid black;
+}

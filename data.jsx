@@ -8,61 +8,71 @@ import Unisex from './src/assets/image-product-1.jpg'
 export const ListingData = [
     {
         img: Unisex,
-        title: <a href="/Product_detail">UNISEX SNEAKER</a>,
+        title: 'UNISEX SNEAKER',
         tagOne: '$125.00',
         tagTwo: '50%',
+        tagsize: 'size: 40-45'
     },
     {
         img: jordan1,
-        title: <a href="/">JORDAN SNEAKER</a>,
+        title: 'JORDAN SNEAKER',
         tagOne: '$125.00',
         tagTwo: '50%',
-        tagThree: 'Out of Stuck'
+        tagThree: 'Out of Stuck',
+        tagsize: 'size: 40-45'
     },
     {
         img: Adidas,
-        title: <a href="">ADIDAS SNEAKER</a>,
+        title: 'ADIDAS SNEAKER',
         tagOne: '$125.00L',
         tagTwo: '50%',
+        tagsize: 'size: 40-45'
     },
     {
         img: Jordan,
-        title: <a href="">JORDAN SNEAKER</a>,
+        title: 'JORDAN SNEAKER',
         tagOne: '$125.00',
         tagTwo: '50%',
-        tagThree: 'Available'
+        tagThree: 'Available',
+        tagsize: 'size: 40-45'
     },
     {
         img: Sneaker,
-        title: <a href="">UNISEX SNEAKER</a>,
+        title: 'UNISEX SNEAKER',
         tagOne: '$125.00',
         tagTwo: '50%',
-        tagThree: 'Available'
+        tagThree: 'Available',
+        tagsize: 'size: 40-45'
+
     },
     {
         img: Nike,
-        title: <a href="">NIKE SNEAKER</a>,
+        title: 'NIKE SNEAKER',
         tagOne: '$125.00',
         tagTwo: '50%',
-        tagThree: 'Available'
+        tagThree: 'Available',
+        tagsize: 'size: 40-45'
     },
     {
         img: Unisex,
-        title: <a href="">UNISEX SNEAKER</a>,
+        title: 'UNISEX SNEAKER',
         tagOne: '$125.00',
         tagTwo: '50%',
+        tagsize: 'size: 40-45'
     },
     {
         img: jordan1,
-        title: <a href="">JORDAN SNEAKER</a>,
+        title: 'JORDAN SNEAKER',
         tagOne: '$125.00',
         tagTwo: '50%',
-        tagThree: 'Out of Stuck'
+        tagThree: 'Out of Stuck',
+        tagsize: 'size: 40-45'
     },
     {
         img: Adidas,
-        title: <a href="">ADIDAS SNEAKER</a>,
+        title: 'ADIDAS SNEAKER',
         tagOne: '$125.00L',
         tagTwo: '50%',
+        tagsize: 'size: 40-45',
     },
 ]

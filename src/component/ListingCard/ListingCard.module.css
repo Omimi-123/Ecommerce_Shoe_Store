@@ -1,9 +1,8 @@
-.ListingCard h3 {
+.ListingCard>a>h3 {
     font-family: Space Grotesk;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    color: #FFFFFF;
     margin: 1.25rem 0 0.44rem;
 }
 
@@ -17,12 +16,17 @@
     font-family: Space Grotesk;
     font-size: 18px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 20px;
 }
 
-.ListingCard>img {
+.ListingCard>a>img {
     width: 23rem;
     height: 23rem;
+}
+
+.ListingCard p {
+    font-size: 15px;
+    font-weight: 500
 }
 
 @media screen and (max-width: 700px) {

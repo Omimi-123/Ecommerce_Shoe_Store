@@ -17,13 +17,13 @@ function Listing() {
                         tagTwo={item.tagTwo}
                         tagThree={item.tagThree}
                         title={item.title}
+                        tagsize={item.tagsize}
                         key={idx}
                     />
                     );
                 })}
             </div>
         </section>
-        // <h1>hello eedhdfhfv </h1>
     )
 }
 
