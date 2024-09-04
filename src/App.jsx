@@ -4,7 +4,6 @@ import Home from './pages/Home'
 import Product_detail from './pages/Product_detail'
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Dropdown_menu from './component/Dropdown_menu/Dropdown_menu';
 import Admin from './layout/Admin/Admin';
 
 

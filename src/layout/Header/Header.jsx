@@ -11,7 +11,20 @@ export default function Header() {
             <header>
                 <div className={style.tags}>
                     <div className={style.menulogo}>
-                        <a href=""><img className={style.menu_logo} src={menu} alt="menu" /></a>
+                        <div>
+                            <div className={style.dropdown}>
+                                <button className={style.dropbtn}>
+                                    <img className={style.menu_logo} src={menu} alt="menu" />
+                                </button>
+                                <div className={style.dropdown_content}>
+                                    <a href="">Collections</a>
+                                    <a href="">Men</a>
+                                    <a href="">Women</a>
+                                    <a href="">About</a>
+                                    <a href="">Contact</a>
+                                </div>
+                            </div>
+                        </div>
                         <img className={style.logo} src={logo} alt="logo" />
                     </div>
                     <div className={style.menu}>
